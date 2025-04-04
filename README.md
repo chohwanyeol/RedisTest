@@ -89,23 +89,3 @@ docker run -d -p 6379:6379 --name redis redis
   “어떤 조건에서 캐시를 쓰는 것이 효과적인가” 를 고민해야 한다는 걸 체감했다.
 
 ---
-
-## ✍️ 구조 파일 예시
-
-```
-redis-performance-test/
-├── RedisPerformanceTestApplication.java
-├── controller/
-│   └── UserController.java
-├── service/
-│   └── UserService.java
-├── entity/
-│   └── User.java
-├── repository/
-│   └── UserRepository.java
-├── config/
-│   └── RedisConfig.java
-├── resources/
-│   ├── application.properties
-└── ...
-```
